@@ -549,6 +549,7 @@ TD.tip {
 #content div.caution p,
 #content div.important p,
 #content div.note p,
+
 #content div.tip p,
 #content div.warning p {
     margin-top: 8px; /*to align text with bg graphic*/
@@ -562,3 +563,76 @@ TD.tip {
 
 /* admonition end */
 
+/* bugli 2018-07-11 */
+#navibar {
+    display: none !important;
+}
+
+#locationline {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+#interwiki {
+    display: none !important;
+    
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+body {
+    font-family: Lato;
+    background-color:#fbfbfb;
+    line-height: 22px;
+}
+
+a {
+    color: #0044b3 !important;  
+}
+
+a:visited {
+    color: #597bb3 !important;
+}
+
+#pageline {
+    background-color: #007bb5 !important;
+}
+
+#pagelocation li  {
+    font-size: 36px;
+    line-height: 40px;
+    color: #0066b3;
+    text-transform: none;
+}
+
+#header {
+    background-color: white !important;
+}
+
+#username {
+    display: none !important;
+}
+
+#page {
+    clear: both;
+    width:95%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    /* max-height: 1200px !important; */
+
+    height: calc(100% - 60px) !important;
+    margin-bottom: 40px !important;
+}
+
+html {
+    background-color: #004c8c;
+}
+
+#footer {
+    display: none;   
+}
