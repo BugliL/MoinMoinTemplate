@@ -26,6 +26,7 @@ class Theme(ThemeBase):
             # Header
             u'<div id="header">',
             self.logo(),
+            u'<a href="/"><img src="/moin_static199/modern/img/logo.png" /></a>',
             self.searchform(d),
             self.username(d),
             u'<div id="locationline">',
@@ -92,6 +93,7 @@ class Theme(ThemeBase):
 
             # Footer
             u'<div id="footer">',
+            u'<p>&copy; Compression Service Technology 2018</p>',
             #self.editbar(d),
             #self.credits(d),
             #self.showversion(d, **keywords),

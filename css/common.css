@@ -588,7 +588,7 @@ TD.tip {
 body {
     font-family: Lato;
     background-color:#fbfbfb;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 a {
@@ -601,6 +601,7 @@ a:visited {
 
 #pageline {
     background-color: #007bb5 !important;
+    margin-top: 60px !important;
 }
 
 #pagelocation li  {
@@ -612,6 +613,7 @@ a:visited {
 
 #header {
     background-color: white !important;
+    margin-bottom: 30px;
 }
 
 #username {
@@ -625,14 +627,59 @@ a:visited {
     margin-right:auto !important;
     /* max-height: 1200px !important; */
 
-    height: calc(100% - 60px) !important;
     margin-bottom: 40px !important;
+    margin-top: 25px !important;
 }
 
 html {
-    background-color: #004c8c;
+    /* background-color: #004c8c; */
 }
 
 #footer {
-    display: none;   
+    /* display: none;    */
+    /* height: 100px; */
+    width: 100%;
+    position: unset;
+    bottom: 0px;
+    background-color: #004c8c;
+    color: white !important;
+    margin-bottom: 0px !important;
 }
+
+#footer p {
+    margin-left: 90px;
+    margin-bottom: 0px !important;
+    padding-top: 10px;
+    height: 40px;
+}
+
+#page #content p a {
+    /* text-transform: uppercase !important; */
+}
+
+#page #content p small a{
+    /* text-transform: lowercase !important; */
+}
+
+#header img {
+    float: left;
+    margin-right: 40px;
+}
+
+#page a {
+    color: black !important;
+}
+
+#page p > a:nth-child(1) {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+#page p[class^="line"] > a:nth-child(1) {
+    font-weight: normal !important;
+}
+
+li p {
+    margin: 10px;
+}
+
